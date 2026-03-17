@@ -12,7 +12,13 @@
             <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Product</a>
+            <a class="nav-link" href="Product_api">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Product_list">Product list</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Gold">Gold</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

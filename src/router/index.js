@@ -16,9 +16,28 @@ const routes = [
 
   {
     path: '/contact',
-    name: 'contact',
+    name: 'contact',  
     component: () => import( '../views/Contact.vue')
+  },
+  {
+    path: '/product_api',
+    name: 'product_api',
+
+    component: () => import( '../views/Product.api.vue')
+  },
+  {
+    path: '/product_list',
+    name: 'product_list',
+
+    component: () => import( '../views/Product_list.vue')
+  },
+  {
+    path: '/gold',
+    name: 'gold',
+
+    component: () => import('../views/gold.vue')
   }
+
 ]
 
 const router = createRouter({
