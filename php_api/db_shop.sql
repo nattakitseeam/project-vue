@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 24, 2026 at 06:47 PM
+-- Generation Time: Mar 26, 2026 at 07:32 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -46,7 +46,8 @@ INSERT INTO `customers` (`customer_id`, `firstName`, `lastName`, `phone`, `usern
 (3, 'John', 'Doe', '0991122334', 'johnd', 'securepwd'),
 (4, 'ชาย', 'ใจดี', '0812345678', 'somchai', 'pass1234'),
 (5, 'วิภาวดี', 'สุขสันต์', '0898765432', 'wipa', 'wipa2025'),
-(6, 'Johnnydep', 'Doe', '0991122334', 'johnd', 'securepwd');
+(6, 'Johnnydep', 'Doe', '0991122334', 'johnd', 'securepwd'),
+(7, 'ddsf', 'dsfdsf', '123543', 'dsf', '$2y$10$MZVmc6ir8swFS');
 
 -- --------------------------------------------------------
 
@@ -97,7 +98,7 @@ ALTER TABLE `employees`
 -- AUTO_INCREMENT for table `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `customer_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `customer_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

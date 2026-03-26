@@ -1,4 +1,4 @@
-<template>
+  <template>
   <!-- Container หลัก -->
   <div class="container my-5">
     <div class="row">

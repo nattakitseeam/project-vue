@@ -60,6 +60,12 @@ const routes = [
     name: 'addempregister',
 
     component: () => import('../views/Add_employee.vue')
+  },
+  {
+    path: '/student',
+    name: 'student',
+
+    component: () => import('../views/project_student_68703472.vue')
   }
 
 ]

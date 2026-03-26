@@ -73,7 +73,7 @@
      methods: {
        async addCustomer() {
          try {
-           const res = await fetch('http://localhost/project-vue-41970137-api/php_api/add_customer.php', {
+           const res = await fetch('http://localhost/project-vue/php_api/add_customers.php', {
              method: 'POST',
              headers: {
                'Content-Type': 'application/json'
