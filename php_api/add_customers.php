@@ -3,7 +3,15 @@
 include 'condb.php';
 
 // รับค่า JSON จาก client
+
 $data = json_decode(file_get_contents("php://input"), true);
+
+$firstName = $data['firstName'] ?? '';
+$lastName = $data['lastName'] ?? '';
+$phone = $data['phone'] ?? '';
+$username = $data['username'] ?? '';
+$password = $data['password'] ?? '';
+
 
 // เช็คว่าข้อมูลครบถ้วนหรือไม่
 if (
